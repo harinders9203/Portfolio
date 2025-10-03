@@ -121,3 +121,8 @@
                 padding: 10px 15px;
                 border-radius: 20px;
             }
+            .skillstxt{
+                padding: 10px;
+                height: 90px;
+                background-color: rgb(16, 16, 255);
+            }
