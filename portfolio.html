@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+           .same { 
+                color: whitesmoke;
+
+            }
+            .projects{
+                display: flex;
+                justify-content: center;
+            }
+            .project1{
+                height: 300px;
+                width: 300px;
+                border: 2px solid white;
+                margin: 20px;
+                display: inline-block;
+            }
+            .project1img{
+                display: flex;
+                justify-content: center;
+                padding-top: 10px;
+            }
+            .project1text{
+                padding-top: 20px;
+            }
+            .project2{
+                height: 300px;
+                width: 300px;
+                border: 2px solid white;
+                margin: 20px;
+                display: inline-block;
+            }
+            .project3{
+                height: 300px;
+                width: 300px;
+                border: 2px solid white;
+                margin: 20px;
+                display: inline-block;
+            }
+            .nav {
+                background-color: rgba(0, 0, 0, 0.596);
+                position: sticky;
+                height: 20px;
+                top:0px;
+                color: whitesmoke;
+                padding: 30px;
+                display: flex;
+                backdrop-filter: blur(10px);
+                justify-content: space-between;
+            }
+            h1{
+                font-weight: bold;
+                font-size: 40px;
+            }
+            .name {
+                padding: 10px;
+            }
+
+            .contact {
+                color: whitesmoke;
+                padding: 20px;
+            }
+
+            .img {
+                border-radius: 20px;
+            }
+
+            .name1 {
+                font-size: 50px;
+                color: whitesmoke;
+                font-weight: bold;
+            }
+            .intro {
+
+                color:gray;
+                font-weight: bold;
+            }
+            .download {
+                border-color: aqua;
+                border-style: solid;
+                border-radius: 40px;
+
+            }
+            a {
+                text-decoration: none;
+                color: whitesmoke;
+            }
+
+            a:hover {
+                text-transform: uppercase;
+                /* color: lightgreen; */
+                color: white;
+            }
+            .banner{
+                padding:50px 150px ;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .resume{
+                background-color: rgb(16, 16, 255);
+                padding: 10px 15px;
+                border-radius: 20px;
+            }
+        </style>
+        <title>
+            Harinder Singh - Portfolio
+        </title>
+    </head>
+    <body bgcolor="black" text="whitesmoke" id="home">
+        <div class="nav" align="center">
+           <div><a href="#home" class="name">Home</a>
+           <a href="#projects" class="name">Projects</a>
+           <a href="home.html" class="name">Achievements</a>
+           <a href="home.html" class="name">About me</a></div>
+           <div><a href="home.html" class="name">Contact me</a></div>
+        </div>
+        <div class="banner">
+            <div>
+                <div class="name1">
+                    Hey i'm a cyber security<br> Enthusiast
+                </div>
+                <div class="intro">
+                    <p>I am passionate about learning new technologies and exploring new <br> things. I love to solve problems and help others.</p>
+                </div><br>
+                <a href="downloads/Harinder_Singh_updated.pdf" class="resume" target="_blank">View Resume</a>
+                <a href="Hire_Me" class="resume" style="margin-left: 40px;">Hire me</a>
+            </div>
+            <img src="images/mountain 1.jpg" alt="" height="400" class="img">
+        </div>
+        <h1 align="center" id="projects" style="padding-top: 150px;">Projects</h1>
+        <div class="projects">
+            <div class="project1">
+                <div class="project1img">
+                    <img src="images/servo logo.png" alt="Servo Browser" height="100px">
+                </div>
+                <div class="project1text">
+                    <p class="same" align="center"><b>Servo Browser</b></p>
+                    <p class="same" style="padding-left: 10px;">I created a browser using <b>Servo Browser Engine</b> for focusing on the privacy and it supports on device processing instead of cloud</p>
+                </div>
+            </div>
+            <div class="project2">
+            </div>
+            <div class="project3">
+            </div>
+        </div>
+    </body>
+</html>
