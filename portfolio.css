@@ -1,0 +1,123 @@
+            body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+           .same { 
+                color: whitesmoke;
+
+            }
+            .git{
+                display: flex;
+                justify-content: right;
+            }
+            .projects{
+                display: flex;
+                justify-content: center;
+            }
+            .project1{
+                /* height: 300px; */
+                /* border-radius: 20px; */
+                width: 300px;
+                border: 2px solid white;
+                margin: 20px;
+                display: inline-block;
+                /* border: none; */
+            }
+            .project1img{
+                /* border-radius: 20px; */
+                display: flex;
+                justify-content: center;
+                height: 120px;
+                padding-top: 10px;
+                background-color: white;
+            }
+            .project1text{
+                /* border-radius: 20px; */
+                padding: 10px;
+                /* height: 150px; */
+                background-color: rgb(16, 16, 255);
+            }
+            .ppt{
+                height: 71px;
+                background-color: rgb(16, 16, 255);
+                padding: 10px;
+            }
+            .project2{
+                height: 300px;
+                width: 300px;
+                border: 2px solid white;
+                margin: 20px;
+                display: inline-block;
+            }
+            .project3{
+                height: 300px;
+                width: 300px;
+                border: 2px solid white;
+                margin: 20px;
+                display: inline-block;
+            }
+            .nav {
+                background-color: rgba(0, 0, 0, 0.596);
+                position: sticky;
+                height: 20px;
+                top:0px;
+                color: whitesmoke;
+                padding: 30px;
+                display: flex;
+                backdrop-filter: blur(10px);
+                justify-content: space-between;
+            }
+            h1{
+                font-weight: bold;
+                font-size: 40px;
+            }
+            .name {
+                padding: 10px;
+            }
+
+            .contact {
+                color: whitesmoke;
+                padding: 20px;
+            }
+
+            .img {
+                border-radius: 20px;
+            }
+
+            .name1 {
+                font-size: 50px;
+                color: whitesmoke;
+                font-weight: bold;
+            }
+            .intro {
+
+                color:gray;
+                font-weight: bold;
+            }
+            .download {
+                border-color: aqua;
+                border-style: solid;
+                border-radius: 40px;
+
+            }
+            a {
+                text-decoration: none;
+                color: whitesmoke;
+            }
+
+            a:hover {
+                text-transform: uppercase;
+                /* color: lightgreen; */
+                color: white;
+            }
+            .banner{
+                padding:50px 150px ;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .resume{
+                background-color: rgb(16, 16, 255);
+                padding: 10px 15px;
+                border-radius: 20px;
+            }

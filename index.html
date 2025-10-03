@@ -1,112 +1,7 @@
 <html>
     <head>
         <style>
-            body {
-                margin: 0;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-           .same { 
-                color: whitesmoke;
-
-            }
-            .projects{
-                display: flex;
-                justify-content: center;
-            }
-            .project1{
-                height: 300px;
-                width: 300px;
-                border: 2px solid white;
-                margin: 20px;
-                display: inline-block;
-            }
-            .project1img{
-                display: flex;
-                justify-content: center;
-                padding-top: 10px;
-            }
-            .project1text{
-                padding-top: 20px;
-            }
-            .project2{
-                height: 300px;
-                width: 300px;
-                border: 2px solid white;
-                margin: 20px;
-                display: inline-block;
-            }
-            .project3{
-                height: 300px;
-                width: 300px;
-                border: 2px solid white;
-                margin: 20px;
-                display: inline-block;
-            }
-            .nav {
-                background-color: rgba(0, 0, 0, 0.596);
-                position: sticky;
-                height: 20px;
-                top:0px;
-                color: whitesmoke;
-                padding: 30px;
-                display: flex;
-                backdrop-filter: blur(10px);
-                justify-content: space-between;
-            }
-            h1{
-                font-weight: bold;
-                font-size: 40px;
-            }
-            .name {
-                padding: 10px;
-            }
-
-            .contact {
-                color: whitesmoke;
-                padding: 20px;
-            }
-
-            .img {
-                border-radius: 20px;
-            }
-
-            .name1 {
-                font-size: 50px;
-                color: whitesmoke;
-                font-weight: bold;
-            }
-            .intro {
-
-                color:gray;
-                font-weight: bold;
-            }
-            .download {
-                border-color: aqua;
-                border-style: solid;
-                border-radius: 40px;
-
-            }
-            a {
-                text-decoration: none;
-                color: whitesmoke;
-            }
-
-            a:hover {
-                text-transform: uppercase;
-                /* color: lightgreen; */
-                color: white;
-            }
-            .banner{
-                padding:50px 150px ;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
-            .resume{
-                background-color: rgb(16, 16, 255);
-                padding: 10px 15px;
-                border-radius: 20px;
-            }
+            @import url(portfolio.css);
         </style>
         <title>
             Harinder Singh - Portfolio
@@ -116,7 +11,8 @@
         <div class="nav" align="center">
            <div><a href="#home" class="name">Home</a>
            <a href="#projects" class="name">Projects</a>
-           <a href="home.html" class="name">Achievements</a>
+           <a href="#achievements" class="name">Achievements</a>
+           <a href="#skills" class="name">Skills</a>
            <a href="home.html" class="name">About me</a></div>
            <div><a href="home.html" class="name">Contact me</a></div>
         </div>
@@ -141,13 +37,51 @@
                 </div>
                 <div class="project1text">
                     <p class="same" align="center"><b>Servo Browser</b></p>
-                    <p class="same" style="padding-left: 10px;">I created a browser using <b>Servo Browser Engine</b> for focusing on the privacy and it supports on device processing instead of cloud</p>
+                    <p class="same" >Developed a Windows privacy-focused browser using the Servo engine with secure on-device processing</p>
+                    <div class="git"><a href="https://github.com/harinders9203/Browser-project" target="_blank"><img src="images/github-logo.png" alt="github" height="40px" width="40px"></a></div>
                 </div>
             </div>
-            <div class="project2">
+            <div class="project1">
+                <div class="project1img">
+                    <img src="images/incident.jpg" alt="incident response" height="100px">
+                </div>
+                <div class="project1text">
+                    <p class="same" align="center"><b>Windows Incident Response Tool</b></p>
+                    <p class="same">Created a Windows incident response tool for quick detection, analysis, and mitigation of security events.</p>
+                    <div class="git"><img src="images/github-logo.png" alt="github" height="40px" width="40px"></div>
+                </div>
             </div>
-            <div class="project3">
+            <div class="project1">
+                <div class="project1img"><img src="images/LAN.png" alt="LAN"></div>
+                <div class="project1text">
+                    <p class="same" align="center"><b>Chatting over LAN</b></p>
+                    <p>Built a Windows LAN-based offline chat system enabling secure peer-to-peer communication.</p>
+                    <div class="git"><img src="images/github-logo.png" alt="github" height="40px" width="40px"></div>
+                </div>
             </div>
+        </div>
+
+        <h1 id="achievements" align="center" style="padding-top: 150px;">Achievements</h1>
+        <div class="projects">
+            <div class="project1">
+                <div class="project1img"><img src="images/ppt.png" alt="PPT competetion"></div>
+                <div class="ppt">Stood 2nd in the Inter-college PPT competetion</div>
+            </div>
+            <div class="project1">
+                <div class="project1img"><img src="images/chatgpt-logo-vector-illustration-chat-600nw-2659160217.webp" alt="Prompt competetion"></div>
+                <div class="ppt">Stood 1st in the ChatGpt competetion at college Level</div>
+            </div>
+            <div class="project1">
+                <div class="project1img"><img src="images/videography.jpg" alt="videography Head"></div>
+                <div class="project1text">Joined the college's digital marketting team as memeber next sem became head of the videography team and after that stayed co-convener for 1  sem</div>
+            </div>
+        </div>
+
+        <h1 id="skills" align="center" style="padding-top: 150px;">Skills</h1>
+        <div class="projects">
+            <div class="project1">Malware analysis</div>
+            <div class="project1"></div>
+            <div class="project1"></div>
         </div>
     </body>
 </html>
